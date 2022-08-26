@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+
+}
+.header1{
+    display: flex;
+    background-color: rgb(90, 32, 32);
+    color: white;
+    height: 40px;
+    font-size: 1.3vw;
+    
+}
+.headericons{
+    color: white;
+    margin: .5vw;
+}
+
+.header11{
+    flex: 33%;
+    display: grid;
+    place-items: center left;
+    margin-left: 2vw;
+}
+.header12{
+    flex: 33%;
+    display: grid;
+    place-items: center right ;
+    margin-right: 4vw;
+
+}
+.header13{
+    flex: 33%;
+    display: grid;
+    place-items: center ;
+    
+
+}
+.email{
+    color: white;
+}
+.header2{
+    display: flex;
+    background-color: white;
+    box-shadow: 2px 4px 20px grey;
+    height: 10vh;
+}
+.logodiv{
+    flex: 40%;
+    display: grid;
+    place-items: center r;
+}
+.nav{
+    flex: 60%;
+    padding-top: 2.5vh;
+}
+.nav a{
+    font-size: 1.5vw;
+    color: rgb(90, 32, 32) ;
+    text-decoration: none;
+    margin-left: 1.2vw;
+
+}
+.main{
+    
+}
+
+.imgdiv{
+    height: 70vh;
+    background-image: url(./assets/siteimg/print.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    
+    padding-top: 3vw;
+}
+.overlay{
+    background-color: rgba(90, 32, 32, 0.296);
+    height: 70vh;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+.content{
+    z-index:4;
+    width: 100%;
+ margin-top: 25vh;
+ position: absolute;
+font-size: 3vw;
+color: white;
+}
+.bodyheaders{
+    padding: 10vh;
+    font-size: 2vw;
+    color:rgb(90, 32, 32) ;
+}
+.services{
+    display: flex;
+}
+.box{
+    flex: 25%;
+    padding: 2.5vw;
+}
+.box1{
+    box-shadow: 2px 2px 20px gray;
+    padding: 3vw;
+    border-radius: 10px;
+}
+.boxheader{
+    font-size: 2vw;
+    margin: 1.5vw;
+}
+.boxicons{
+    color:rgb(90, 32, 32) ;
+}
+.boxtext{
+    font-size: 1.2vw;
+}
+.boxlink{
+    padding: 2vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
